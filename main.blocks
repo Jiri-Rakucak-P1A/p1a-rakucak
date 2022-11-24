@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="(dnFEv)][o2g5n+SeUW/">sprite</variable><variable id="Zi3.Jv,fhkZus%jcT~x#">letadlo</variable></variables><block type="device_button_event" id="Ip0m6;PXG#Qn.}d]sbqU" x="675" y="-682"><field name="NAME">Button.A</field></block><block type="pxt-on-start" id="Gu.b}SmV0Xtt.fEF2+~]" x="294" y="-578"><statement name="HANDLER"><block type="device_print_message" id="pXDgX{2%$S7.2lQ,YQxB"><value name="text"><shadow type="text" id="/R3u!bhzmOQrO8d5v|2,"><field name="TEXT">start</field></shadow></value></block></statement></block><block type="game_move_sprite" id="p$o{eSP(5fs153SJ=~7`" disabled="true" x="761" y="-426"><value name="sprite"><block type="variables_get" id="9tkq]3L[tYrWHBmi(_y2" disabled="true"><field name="VAR" id="Zi3.Jv,fhkZus%jcT~x#">letadlo</field></block></value><value name="leds"><shadow type="math_number" id="V+[]:MV@=SQ`J@VZb5-*" disabled="true"><field name="NUM">1</field></shadow></value></block><block type="device_gesture_event" id="=`2VGy(eA(OL,#ZRFrcu" x="64" y="-339"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="device_show_leds" id="]X@@:9e~jNEsTAuCu!QN"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement></block><block type="device_gesture_event" id="u1]sBZ8=T_j?tWfyh6-2" x="315" y="-336"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id=":=qxv5=$TPm0W|q5jxd("><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # . . . 
+        # # # . . 
+        # # # . .
+        `</field></block></statement></block><block type="device_gesture_event" id="Ah`-wdO`wvi9jv6pmk*I" x="593" y="-288"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="YF%+gg5$Q5`jV|$gfr5W"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . # . 
+        . . # # # 
+        . . # # #
+        `</field></block></statement></block><block type="device_button_event" id="};AMFpXNhF|.K_;EV[wp" x="0" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="controls_if" id="=zSUULKW~nd}byy@+[FK"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id=":vuZM11Z(xb+vByA}E79"><field name="BOOL">TRUE</field></shadow></value><statement name="ELSE"><block type="controls_if" id="i596PW4$sRC@Jr5Ik$@c"><value name="IF0"><shadow type="logic_boolean" id="5Pt=+==K6vsxr8bRBrEz"><field name="BOOL">TRUE</field></shadow></value></block></statement></block></statement></block></xml>
